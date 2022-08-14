@@ -36,6 +36,38 @@ numvar_4 = 200.5
 var numvar_5:Double
 var numvar_6:Double
 numvar_5=200
-numvar_6=200.5
+numvar_6=200.1
 numvar_5*numvar_6 // type error solved
 
+// immutable and mutable
+let immutable_var:Double
+immutable_var = 30
+// immutable_var = 20 this cause error
+
+// tuple
+var greeting_1 = ("Hello", "こんにちは")
+var greeting_2:(String, String)
+greeting_2 = ("Hola","hola")
+
+// for in
+let numList = [4,8,5]
+var sum = 0
+for num in numList{
+    sum += num
+}
+print("sum res \(sum)")
+
+for x in 0 ..< 360*2 {
+    let radian = Double(x) * Double.pi/180
+    let y      = sin(radian)
+    print(x,y)
+}
+
+for x in 0 ... 10 {
+    print(x)
+}
+
+var stars = ""
+for _ in 1 ... 5 {
+    stars += "★"
+}
