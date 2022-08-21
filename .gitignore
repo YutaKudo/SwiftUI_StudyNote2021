@@ -69,4 +69,5 @@ fastlane/screenshots
 fastlane/test_output
 
 # Mac files
-.DS_Store
+**/.DS_Store
+SwiftUI_2021_Samples
