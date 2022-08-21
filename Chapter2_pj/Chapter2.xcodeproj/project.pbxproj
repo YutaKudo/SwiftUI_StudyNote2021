@@ -44,6 +44,7 @@
 		33B246DC28ABBAF900811CA3 /* Chapter2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chapter2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B246E028ABBAF900811CA3 /* Chapter2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2UITests.swift; sourceTree = "<group>"; };
 		33B246E228ABBAF900811CA3 /* Chapter2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33B246EF28ABDD8800811CA3 /* sintax_basic.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sintax_basic.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 			children = (
 				33B246C528ABBAF500811CA3 /* Chapter2App.swift */,
 				33B246C728ABBAF500811CA3 /* ContentView.swift */,
+				33B246EF28ABDD8800811CA3 /* sintax_basic.playground */,
 				33B246C928ABBAF800811CA3 /* Assets.xcassets */,
 				33B246CB28ABBAF800811CA3 /* Preview Content */,
 			);
